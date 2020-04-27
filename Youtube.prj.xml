@@ -1,0 +1,779 @@
+<TaskerData sr="" dvi="1" tv="5.9.3.beta.4">
+	<dmetric>1440.0,2392.0</dmetric>
+	<Profile sr="prof11" ve="2">
+		<cdate>1587826992214</cdate>
+		<clp>true</clp>
+		<edate>1587853426640</edate>
+		<flags>8</flags>
+		<id>11</id>
+		<mid0>9</mid0>
+		<nme>Youtube Prev</nme>
+		<Event sr="con0" ve="2">
+			<code>109437509</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Title=~"youtube", Message=~"prev"</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<net.superblock.pushover.tasker.APPLICATION></net.superblock.pushover.tasker.APPLICATION>
+					<net.superblock.pushover.tasker.APPLICATION-type>java.lang.String</net.superblock.pushover.tasker.APPLICATION-type>
+					<net.superblock.pushover.tasker.MESSAGE>prev</net.superblock.pushover.tasker.MESSAGE>
+					<net.superblock.pushover.tasker.MESSAGE-type>java.lang.String</net.superblock.pushover.tasker.MESSAGE-type>
+					<net.superblock.pushover.tasker.OK>net.superblock.pushover.tasker.OK</net.superblock.pushover.tasker.OK>
+					<net.superblock.pushover.tasker.OK-type>java.lang.String</net.superblock.pushover.tasker.OK-type>
+					<net.superblock.pushover.tasker.PRIORITY></net.superblock.pushover.tasker.PRIORITY>
+					<net.superblock.pushover.tasker.PRIORITY-type>java.lang.String</net.superblock.pushover.tasker.PRIORITY-type>
+					<net.superblock.pushover.tasker.QUIET>false</net.superblock.pushover.tasker.QUIET>
+					<net.superblock.pushover.tasker.QUIET-type>java.lang.Boolean</net.superblock.pushover.tasker.QUIET-type>
+					<net.superblock.pushover.tasker.TITLE>youtube</net.superblock.pushover.tasker.TITLE>
+					<net.superblock.pushover.tasker.TITLE-type>java.lang.String</net.superblock.pushover.tasker.TITLE-type>
+					<net.superblock.pushover.tasker.URL></net.superblock.pushover.tasker.URL>
+					<net.superblock.pushover.tasker.URL-type>java.lang.String</net.superblock.pushover.tasker.URL-type>
+					<net.superblock.pushover.tasker.URL_TITLE></net.superblock.pushover.tasker.URL_TITLE>
+					<net.superblock.pushover.tasker.URL_TITLE-type>java.lang.String</net.superblock.pushover.tasker.URL_TITLE-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">net.superblock.pushover</Str>
+			<Str sr="arg2" ve="3">net.superblock.pushover.tasker.PushoverTaskerPluginActivity</Str>
+		</Event>
+	</Profile>
+	<Profile sr="prof12" ve="2">
+		<cdate>1587826992214</cdate>
+		<clp>true</clp>
+		<edate>1587874997824</edate>
+		<flags>8</flags>
+		<id>12</id>
+		<mid0>10</mid0>
+		<nme>Youtube Stop</nme>
+		<Event sr="con0" ve="2">
+			<code>109437509</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Title=~"youtube", Message=~"stop"</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<net.superblock.pushover.tasker.APPLICATION></net.superblock.pushover.tasker.APPLICATION>
+					<net.superblock.pushover.tasker.APPLICATION-type>java.lang.String</net.superblock.pushover.tasker.APPLICATION-type>
+					<net.superblock.pushover.tasker.MESSAGE>stop</net.superblock.pushover.tasker.MESSAGE>
+					<net.superblock.pushover.tasker.MESSAGE-type>java.lang.String</net.superblock.pushover.tasker.MESSAGE-type>
+					<net.superblock.pushover.tasker.OK>net.superblock.pushover.tasker.OK</net.superblock.pushover.tasker.OK>
+					<net.superblock.pushover.tasker.OK-type>java.lang.String</net.superblock.pushover.tasker.OK-type>
+					<net.superblock.pushover.tasker.PRIORITY></net.superblock.pushover.tasker.PRIORITY>
+					<net.superblock.pushover.tasker.PRIORITY-type>java.lang.String</net.superblock.pushover.tasker.PRIORITY-type>
+					<net.superblock.pushover.tasker.QUIET>false</net.superblock.pushover.tasker.QUIET>
+					<net.superblock.pushover.tasker.QUIET-type>java.lang.Boolean</net.superblock.pushover.tasker.QUIET-type>
+					<net.superblock.pushover.tasker.TITLE>youtube</net.superblock.pushover.tasker.TITLE>
+					<net.superblock.pushover.tasker.TITLE-type>java.lang.String</net.superblock.pushover.tasker.TITLE-type>
+					<net.superblock.pushover.tasker.URL></net.superblock.pushover.tasker.URL>
+					<net.superblock.pushover.tasker.URL-type>java.lang.String</net.superblock.pushover.tasker.URL-type>
+					<net.superblock.pushover.tasker.URL_TITLE></net.superblock.pushover.tasker.URL_TITLE>
+					<net.superblock.pushover.tasker.URL_TITLE-type>java.lang.String</net.superblock.pushover.tasker.URL_TITLE-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">net.superblock.pushover</Str>
+			<Str sr="arg2" ve="3">net.superblock.pushover.tasker.PushoverTaskerPluginActivity</Str>
+		</Event>
+	</Profile>
+	<Profile sr="prof15" ve="2">
+		<cdate>1587824923235</cdate>
+		<edate>1588002560763</edate>
+		<flags>8</flags>
+		<id>15</id>
+		<mid0>16</mid0>
+		<nme>Youtube URL</nme>
+		<Event sr="con0" ve="2">
+			<code>109437509</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Title=~"youtube", Message=~"url"</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<net.superblock.pushover.tasker.APPLICATION></net.superblock.pushover.tasker.APPLICATION>
+					<net.superblock.pushover.tasker.APPLICATION-type>java.lang.String</net.superblock.pushover.tasker.APPLICATION-type>
+					<net.superblock.pushover.tasker.MESSAGE>url</net.superblock.pushover.tasker.MESSAGE>
+					<net.superblock.pushover.tasker.MESSAGE-type>java.lang.String</net.superblock.pushover.tasker.MESSAGE-type>
+					<net.superblock.pushover.tasker.OK>net.superblock.pushover.tasker.OK</net.superblock.pushover.tasker.OK>
+					<net.superblock.pushover.tasker.OK-type>java.lang.String</net.superblock.pushover.tasker.OK-type>
+					<net.superblock.pushover.tasker.PRIORITY></net.superblock.pushover.tasker.PRIORITY>
+					<net.superblock.pushover.tasker.PRIORITY-type>java.lang.String</net.superblock.pushover.tasker.PRIORITY-type>
+					<net.superblock.pushover.tasker.QUIET>false</net.superblock.pushover.tasker.QUIET>
+					<net.superblock.pushover.tasker.QUIET-type>java.lang.Boolean</net.superblock.pushover.tasker.QUIET-type>
+					<net.superblock.pushover.tasker.TITLE>youtube</net.superblock.pushover.tasker.TITLE>
+					<net.superblock.pushover.tasker.TITLE-type>java.lang.String</net.superblock.pushover.tasker.TITLE-type>
+					<net.superblock.pushover.tasker.URL></net.superblock.pushover.tasker.URL>
+					<net.superblock.pushover.tasker.URL-type>java.lang.String</net.superblock.pushover.tasker.URL-type>
+					<net.superblock.pushover.tasker.URL_TITLE></net.superblock.pushover.tasker.URL_TITLE>
+					<net.superblock.pushover.tasker.URL_TITLE-type>java.lang.String</net.superblock.pushover.tasker.URL_TITLE-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">net.superblock.pushover</Str>
+			<Str sr="arg2" ve="3">net.superblock.pushover.tasker.PushoverTaskerPluginActivity</Str>
+		</Event>
+	</Profile>
+	<Profile sr="prof17" ve="2">
+		<cdate>1587998115400</cdate>
+		<clp>true</clp>
+		<edate>1587998139596</edate>
+		<flags>8</flags>
+		<id>17</id>
+		<mid0>7</mid0>
+		<nme>Youtube Volume Up</nme>
+		<Event sr="con0" ve="2">
+			<code>109437509</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Title=~"youtube", Message=~"volume.up"</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<net.superblock.pushover.tasker.APPLICATION></net.superblock.pushover.tasker.APPLICATION>
+					<net.superblock.pushover.tasker.APPLICATION-type>java.lang.String</net.superblock.pushover.tasker.APPLICATION-type>
+					<net.superblock.pushover.tasker.MESSAGE>volume.up</net.superblock.pushover.tasker.MESSAGE>
+					<net.superblock.pushover.tasker.MESSAGE-type>java.lang.String</net.superblock.pushover.tasker.MESSAGE-type>
+					<net.superblock.pushover.tasker.OK>net.superblock.pushover.tasker.OK</net.superblock.pushover.tasker.OK>
+					<net.superblock.pushover.tasker.OK-type>java.lang.String</net.superblock.pushover.tasker.OK-type>
+					<net.superblock.pushover.tasker.PRIORITY></net.superblock.pushover.tasker.PRIORITY>
+					<net.superblock.pushover.tasker.PRIORITY-type>java.lang.String</net.superblock.pushover.tasker.PRIORITY-type>
+					<net.superblock.pushover.tasker.QUIET>false</net.superblock.pushover.tasker.QUIET>
+					<net.superblock.pushover.tasker.QUIET-type>java.lang.Boolean</net.superblock.pushover.tasker.QUIET-type>
+					<net.superblock.pushover.tasker.TITLE>youtube</net.superblock.pushover.tasker.TITLE>
+					<net.superblock.pushover.tasker.TITLE-type>java.lang.String</net.superblock.pushover.tasker.TITLE-type>
+					<net.superblock.pushover.tasker.URL></net.superblock.pushover.tasker.URL>
+					<net.superblock.pushover.tasker.URL-type>java.lang.String</net.superblock.pushover.tasker.URL-type>
+					<net.superblock.pushover.tasker.URL_TITLE></net.superblock.pushover.tasker.URL_TITLE>
+					<net.superblock.pushover.tasker.URL_TITLE-type>java.lang.String</net.superblock.pushover.tasker.URL_TITLE-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">net.superblock.pushover</Str>
+			<Str sr="arg2" ve="3">net.superblock.pushover.tasker.PushoverTaskerPluginActivity</Str>
+		</Event>
+	</Profile>
+	<Profile sr="prof18" ve="2">
+		<cdate>1587998115400</cdate>
+		<clp>true</clp>
+		<edate>1587998189394</edate>
+		<flags>8</flags>
+		<id>18</id>
+		<mid0>7</mid0>
+		<nme>Youtube Volume Down</nme>
+		<Event sr="con0" ve="2">
+			<code>109437509</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Title=~"youtube", Message=~"volume.down"</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<net.superblock.pushover.tasker.APPLICATION></net.superblock.pushover.tasker.APPLICATION>
+					<net.superblock.pushover.tasker.APPLICATION-type>java.lang.String</net.superblock.pushover.tasker.APPLICATION-type>
+					<net.superblock.pushover.tasker.MESSAGE>volume.down</net.superblock.pushover.tasker.MESSAGE>
+					<net.superblock.pushover.tasker.MESSAGE-type>java.lang.String</net.superblock.pushover.tasker.MESSAGE-type>
+					<net.superblock.pushover.tasker.OK>net.superblock.pushover.tasker.OK</net.superblock.pushover.tasker.OK>
+					<net.superblock.pushover.tasker.OK-type>java.lang.String</net.superblock.pushover.tasker.OK-type>
+					<net.superblock.pushover.tasker.PRIORITY></net.superblock.pushover.tasker.PRIORITY>
+					<net.superblock.pushover.tasker.PRIORITY-type>java.lang.String</net.superblock.pushover.tasker.PRIORITY-type>
+					<net.superblock.pushover.tasker.QUIET>false</net.superblock.pushover.tasker.QUIET>
+					<net.superblock.pushover.tasker.QUIET-type>java.lang.Boolean</net.superblock.pushover.tasker.QUIET-type>
+					<net.superblock.pushover.tasker.TITLE>youtube</net.superblock.pushover.tasker.TITLE>
+					<net.superblock.pushover.tasker.TITLE-type>java.lang.String</net.superblock.pushover.tasker.TITLE-type>
+					<net.superblock.pushover.tasker.URL></net.superblock.pushover.tasker.URL>
+					<net.superblock.pushover.tasker.URL-type>java.lang.String</net.superblock.pushover.tasker.URL-type>
+					<net.superblock.pushover.tasker.URL_TITLE></net.superblock.pushover.tasker.URL_TITLE>
+					<net.superblock.pushover.tasker.URL_TITLE-type>java.lang.String</net.superblock.pushover.tasker.URL_TITLE-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">net.superblock.pushover</Str>
+			<Str sr="arg2" ve="3">net.superblock.pushover.tasker.PushoverTaskerPluginActivity</Str>
+		</Event>
+	</Profile>
+	<Profile sr="prof2" ve="2">
+		<cdate>1587674815393</cdate>
+		<clp>true</clp>
+		<edate>1587874662995</edate>
+		<flags>8</flags>
+		<id>2</id>
+		<mid0>3</mid0>
+		<nme>Youtube Pause</nme>
+		<Event sr="con0" ve="2">
+			<code>109437509</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Title=~"youtube", Message=~"pause"</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<net.superblock.pushover.tasker.APPLICATION></net.superblock.pushover.tasker.APPLICATION>
+					<net.superblock.pushover.tasker.APPLICATION-type>java.lang.String</net.superblock.pushover.tasker.APPLICATION-type>
+					<net.superblock.pushover.tasker.MESSAGE>pause</net.superblock.pushover.tasker.MESSAGE>
+					<net.superblock.pushover.tasker.MESSAGE-type>java.lang.String</net.superblock.pushover.tasker.MESSAGE-type>
+					<net.superblock.pushover.tasker.OK>net.superblock.pushover.tasker.OK</net.superblock.pushover.tasker.OK>
+					<net.superblock.pushover.tasker.OK-type>java.lang.String</net.superblock.pushover.tasker.OK-type>
+					<net.superblock.pushover.tasker.PRIORITY></net.superblock.pushover.tasker.PRIORITY>
+					<net.superblock.pushover.tasker.PRIORITY-type>java.lang.String</net.superblock.pushover.tasker.PRIORITY-type>
+					<net.superblock.pushover.tasker.QUIET>false</net.superblock.pushover.tasker.QUIET>
+					<net.superblock.pushover.tasker.QUIET-type>java.lang.Boolean</net.superblock.pushover.tasker.QUIET-type>
+					<net.superblock.pushover.tasker.TITLE>youtube</net.superblock.pushover.tasker.TITLE>
+					<net.superblock.pushover.tasker.TITLE-type>java.lang.String</net.superblock.pushover.tasker.TITLE-type>
+					<net.superblock.pushover.tasker.URL></net.superblock.pushover.tasker.URL>
+					<net.superblock.pushover.tasker.URL-type>java.lang.String</net.superblock.pushover.tasker.URL-type>
+					<net.superblock.pushover.tasker.URL_TITLE></net.superblock.pushover.tasker.URL_TITLE>
+					<net.superblock.pushover.tasker.URL_TITLE-type>java.lang.String</net.superblock.pushover.tasker.URL_TITLE-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">net.superblock.pushover</Str>
+			<Str sr="arg2" ve="3">net.superblock.pushover.tasker.PushoverTaskerPluginActivity</Str>
+		</Event>
+	</Profile>
+	<Profile sr="prof4" ve="2">
+		<cdate>1587824923235</cdate>
+		<clp>true</clp>
+		<edate>1587875190452</edate>
+		<flags>8</flags>
+		<id>4</id>
+		<mid0>5</mid0>
+		<nme>Youtube Play</nme>
+		<Event sr="con0" ve="2">
+			<code>109437509</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Title=~"youtube", Message=~"play"</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<net.superblock.pushover.tasker.APPLICATION></net.superblock.pushover.tasker.APPLICATION>
+					<net.superblock.pushover.tasker.APPLICATION-type>java.lang.String</net.superblock.pushover.tasker.APPLICATION-type>
+					<net.superblock.pushover.tasker.MESSAGE>play</net.superblock.pushover.tasker.MESSAGE>
+					<net.superblock.pushover.tasker.MESSAGE-type>java.lang.String</net.superblock.pushover.tasker.MESSAGE-type>
+					<net.superblock.pushover.tasker.OK>net.superblock.pushover.tasker.OK</net.superblock.pushover.tasker.OK>
+					<net.superblock.pushover.tasker.OK-type>java.lang.String</net.superblock.pushover.tasker.OK-type>
+					<net.superblock.pushover.tasker.PRIORITY></net.superblock.pushover.tasker.PRIORITY>
+					<net.superblock.pushover.tasker.PRIORITY-type>java.lang.String</net.superblock.pushover.tasker.PRIORITY-type>
+					<net.superblock.pushover.tasker.QUIET>false</net.superblock.pushover.tasker.QUIET>
+					<net.superblock.pushover.tasker.QUIET-type>java.lang.Boolean</net.superblock.pushover.tasker.QUIET-type>
+					<net.superblock.pushover.tasker.TITLE>youtube</net.superblock.pushover.tasker.TITLE>
+					<net.superblock.pushover.tasker.TITLE-type>java.lang.String</net.superblock.pushover.tasker.TITLE-type>
+					<net.superblock.pushover.tasker.URL></net.superblock.pushover.tasker.URL>
+					<net.superblock.pushover.tasker.URL-type>java.lang.String</net.superblock.pushover.tasker.URL-type>
+					<net.superblock.pushover.tasker.URL_TITLE></net.superblock.pushover.tasker.URL_TITLE>
+					<net.superblock.pushover.tasker.URL_TITLE-type>java.lang.String</net.superblock.pushover.tasker.URL_TITLE-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">net.superblock.pushover</Str>
+			<Str sr="arg2" ve="3">net.superblock.pushover.tasker.PushoverTaskerPluginActivity</Str>
+		</Event>
+	</Profile>
+	<Profile sr="prof6" ve="2">
+		<cdate>1587826992214</cdate>
+		<clp>true</clp>
+		<edate>1587875197336</edate>
+		<flags>8</flags>
+		<id>6</id>
+		<mid0>8</mid0>
+		<nme>Youtube Next</nme>
+		<Event sr="con0" ve="2">
+			<code>109437509</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Title=~"youtube", Message=~"next"</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<net.superblock.pushover.tasker.APPLICATION></net.superblock.pushover.tasker.APPLICATION>
+					<net.superblock.pushover.tasker.APPLICATION-type>java.lang.String</net.superblock.pushover.tasker.APPLICATION-type>
+					<net.superblock.pushover.tasker.MESSAGE>next</net.superblock.pushover.tasker.MESSAGE>
+					<net.superblock.pushover.tasker.MESSAGE-type>java.lang.String</net.superblock.pushover.tasker.MESSAGE-type>
+					<net.superblock.pushover.tasker.OK>net.superblock.pushover.tasker.OK</net.superblock.pushover.tasker.OK>
+					<net.superblock.pushover.tasker.OK-type>java.lang.String</net.superblock.pushover.tasker.OK-type>
+					<net.superblock.pushover.tasker.PRIORITY></net.superblock.pushover.tasker.PRIORITY>
+					<net.superblock.pushover.tasker.PRIORITY-type>java.lang.String</net.superblock.pushover.tasker.PRIORITY-type>
+					<net.superblock.pushover.tasker.QUIET>false</net.superblock.pushover.tasker.QUIET>
+					<net.superblock.pushover.tasker.QUIET-type>java.lang.Boolean</net.superblock.pushover.tasker.QUIET-type>
+					<net.superblock.pushover.tasker.TITLE>youtube</net.superblock.pushover.tasker.TITLE>
+					<net.superblock.pushover.tasker.TITLE-type>java.lang.String</net.superblock.pushover.tasker.TITLE-type>
+					<net.superblock.pushover.tasker.URL></net.superblock.pushover.tasker.URL>
+					<net.superblock.pushover.tasker.URL-type>java.lang.String</net.superblock.pushover.tasker.URL-type>
+					<net.superblock.pushover.tasker.URL_TITLE></net.superblock.pushover.tasker.URL_TITLE>
+					<net.superblock.pushover.tasker.URL_TITLE-type>java.lang.String</net.superblock.pushover.tasker.URL_TITLE-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">net.superblock.pushover</Str>
+			<Str sr="arg2" ve="3">net.superblock.pushover.tasker.PushoverTaskerPluginActivity</Str>
+		</Event>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1587905016037</cdate>
+		<name>Youtube</name>
+		<pids>12,18,15,11,4,17,2,6</pids>
+		<scenes>Popup</scenes>
+		<tids>10,9,16,7,5,3,8</tids>
+		<Kid sr="Kid">
+			<launchID>7</launchID>
+			<pkg>com.scottjwalter.pushover.youtube</pkg>
+			<vTarg>28</vTarg>
+			<vnme>1.0</vnme>
+			<vnum>3</vnum>
+		</Kid>
+		<Img sr="icon" ve="2">
+			<cls>com.google.android.youtube.app.honeycomb.Shell$HomeActivity</cls>
+			<pkg>com.google.android.youtube</pkg>
+		</Img>
+	</Project>
+	<Scene sr="scenePopup">
+		<cdate>1587825245497</cdate>
+		<edate>1587875247879</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>747</heightPort>
+		<nme>Popup</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>897</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>17,0,879,215,6,0,294,72</geom>
+			<Str sr="arg0" ve="3">Title</Str>
+			<Str sr="arg1" ve="3">Title</Str>
+			<Int sr="arg2" val="32"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF80CBC4</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7"/>
+			<Int sr="arg8"/>
+		</TextElement>
+		<RectElement sr="elements1">
+			<flags>4</flags>
+			<geom>0,215,897,8,0,215,897,8</geom>
+			<Str sr="arg0" ve="3">Header</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#77333333</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements2" ve="3">
+			<clickTask>-936</clickTask>
+			<flags>5</flags>
+			<geom>20,236,855,436,20,236,855,436</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Text</Str>
+			<Int sr="arg2" val="26"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Popup</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task10">
+		<cdate>1587824938939</cdate>
+		<edate>1587874997824</edate>
+		<id>10</id>
+		<nme>youtube-stop</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>490</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>443</code>
+			<Int sr="arg0" val="4"/>
+			<Int sr="arg1" val="1"/>
+			<App sr="arg2">
+				<appClass>com.google.android.youtube.app.honeycomb.Shell$HomeActivity</appClass>
+				<appPkg>com.google.android.youtube</appPkg>
+				<label>YouTube</label>
+			</App>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>490</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>1250249549</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Screen Off Or On: Turn Off</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"screenAction":"0","generatedValues":{}}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>eead7161-33a5-444e-9398-cba9c9bc39b6</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoinput.intent.IntentTurnOffScreen</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigTurnOffScreen</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+	</Task>
+	<Task sr="task16">
+		<cdate>1587824938939</cdate>
+		<edate>1588002560763</edate>
+		<id>16</id>
+		<nme>youtube-url</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>1250249549</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Screen Off Or On: Turn On</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"screenAction":"1","generatedValues":{}}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>e6dde629-f679-41f2-9ed5-19e8b5d68a90</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoinput.intent.IntentTurnOffScreen</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigTurnOffScreen</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>104</code>
+			<Str sr="arg0" ve="3">%pushoverurl</Str>
+		</Action>
+	</Task>
+	<Task sr="task3">
+		<cdate>1587674829394</cdate>
+		<edate>1587874662983</edate>
+		<id>3</id>
+		<nme>youtube-pause</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>490</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>443</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<App sr="arg2">
+				<appClass>com.google.android.youtube.app.honeycomb.Shell$HomeActivity</appClass>
+				<appPkg>com.google.android.youtube</appPkg>
+				<label>YouTube</label>
+			</App>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>490</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>1250249549</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Screen Off Or On: Turn Off</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"screenAction":"0","generatedValues":{}}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>04a18521-f927-43ce-b64c-f23cabdc32dd</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoinput.intent.IntentTurnOffScreen</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigTurnOffScreen</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+	</Task>
+	<Task sr="task5">
+		<cdate>1587824938939</cdate>
+		<edate>1587905350463</edate>
+		<id>5</id>
+		<nme>youtube-play</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>550</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">Popup</Str>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>1250249549</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Screen Off Or On: Turn On</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"screenAction":"1","generatedValues":{}}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>e6dde629-f679-41f2-9ed5-19e8b5d68a90</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoinput.intent.IntentTurnOffScreen</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigTurnOffScreen</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>490</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>443</code>
+			<Int sr="arg0" val="5"/>
+			<Int sr="arg1" val="1"/>
+			<App sr="arg2">
+				<appClass>com.google.android.youtube.app.honeycomb.Shell$HomeActivity</appClass>
+				<appPkg>com.google.android.youtube</appPkg>
+				<label>YouTube</label>
+			</App>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>490</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task7">
+		<cdate>1587824938939</cdate>
+		<edate>1587998047583</edate>
+		<id>7</id>
+		<nme>youtube-volume</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>490</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%tVol</Str>
+			<Str sr="arg1" ve="3">%VOLM + 1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%pushovermessage</lhs>
+					<op>2</op>
+					<rhs>volume.up</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%tVol</Str>
+			<Str sr="arg1" ve="3">%VOLM - 1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%pushovermessage</lhs>
+					<op>2</op>
+					<rhs>volume.down</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%tVol</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%tVol</lhs>
+					<op>6</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%tVol</Str>
+			<Str sr="arg1" ve="3">10</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%tVol</lhs>
+					<op>7</op>
+					<rhs>10</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>307</code>
+			<Int sr="arg0">
+				<var>%tVol</var>
+			</Int>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>490</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task8">
+		<cdate>1587824938939</cdate>
+		<edate>1587875197336</edate>
+		<id>8</id>
+		<nme>youtube-next</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>550</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">Popup</Str>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>490</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>443</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<App sr="arg2">
+				<appClass>com.google.android.youtube.app.honeycomb.Shell$HomeActivity</appClass>
+				<appPkg>com.google.android.youtube</appPkg>
+				<label>YouTube</label>
+			</App>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>490</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task9">
+		<cdate>1587824938939</cdate>
+		<edate>1587853426640</edate>
+		<id>9</id>
+		<nme>youtube-prev</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>550</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">Popup</Str>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>490</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>443</code>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="1"/>
+			<App sr="arg2">
+				<appClass>com.google.android.youtube.app.honeycomb.Shell$HomeActivity</appClass>
+				<appPkg>com.google.android.youtube</appPkg>
+				<label>YouTube</label>
+			</App>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>490</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
