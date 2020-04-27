@@ -72,11 +72,9 @@ where:
 
 ## Background
 
-I have an old Nexus 6 phone in the lab, and wanted to put it to use, even trivially.  It occured to me that it would make a great small TV screen (since I tend to listen more than watch videos when I'm working).  And, initially, it was quick to get up and running.
+I have an old Nexus 6 phone in the lab, and wanted to put it to use, even trivially.  It occured to me that it would make a great small TV screen (since I tend to listen more than watch videos when I'm working).  And, initially, it was quick to get up and get running, and I was back to work while [The Red Green Show][50] played in the background (don't judge).  All was right with the world.
 
-But, after time, it got tiresome having to reach across the desk to tap the screen.  There had to be a better way.  Figuring "It's Android. It can run Tasker.  Tasker can control Youtube.  There's _got_ to be something already existing to handle this!"
-
-Well ... not that I could find.  Seems most people are interested in turning their old phones into remote controls _for_ TVs (and such) or home-brew Chromecast TV sticks.  I couldn't find anything about doing it the other way around (playing video _on_ the phone while controlling it _from_ my workstation).
+But, after time, it got tiresome having to reach across the desk to tap the screen.  There had to be a better way.  Figuring "It's Android. It can run Tasker.  Tasker can control Youtube.  There's _got_ to be something already existing to handle this!", I consulted the Google ... and couldn't find much.  Seems most people are interested in turning their old phones into devices that controlled TVs or cast video _to_ them.  I couldn't find anything about doing it the other way around (playing video _on_ the phone while controlling it _from_ my workstation).
 
 Time for some creative thinking:
 
@@ -85,15 +83,14 @@ Time for some creative thinking:
 
 Enter [Pushover][2], which comes with a Tasker plugin for just such a connection.
 
-So, the general pattern becomes:
+So, the general pattern is:
 
-1. In Tasker create a profile off a Pushover Event notificication.
-2. Specify a unique `title` and `body` (each profile can respond to a different `title`/`body` combination).
-3. Create your tasks (or task scripts) for the profile, you get access to the parts of a Pushover notification through the [Tasker variables the Pushover plugin exposes][30].
-4. Save your work (it's easy to overlook the checkmark that appears in the top bar when there are changes to your profiles or tasks.  If you don't save, any changes don't get loaded and executed).
-5. Use the [Pushover.net][2] website (or something like [Markus Perl's pushover-cli][40]) to send a notification to your device with the correct `title` and `body` values.
+1. **Create a profile in Tasker based on a Pushover Event notificication.**  Remember to specify a unique `title` and `body` (each profile can respond to a different `title`/`body` combination).
+1. **Create your Tasker tasks (or task scripts) for the profile.**  You get access to the parts of a Pushover notification through the [Tasker variables the Pushover plugin exposes][30].
+1. **Save your work.**  It's easy to overlook the checkmark that appears in the top bar when there are changes to your profiles or tasks.  If you don't save, any changes don't get loaded and executed.
+1. **Push a notification.**  Use the [Pushover.net][2] website (or something like [Markus Perl's pushover-cli][40]) to send a notification to your device with the correct `title` and `body` values.
 
-And *Voil&agrave;*!
+*Voil&agrave;*!
 
 
 [1]: https://tasker.joaoapps.com/
@@ -111,3 +108,5 @@ And *Voil&agrave;*!
 [30]: https://support.pushover.net/i20-using-pushover-message-variables-in-tasker
 
 [40]: https://github.com/markus-perl/pushover-cli
+
+[50]: https://www.youtube.com/watch?v=FUXPuYZ4DEQ&list=PLB90DDA45E8C2EF45
