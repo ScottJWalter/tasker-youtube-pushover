@@ -77,6 +77,10 @@ where:
 | `volume.up` | Increases the volume by 1. |
 
 
+## Troubleshooting
+
+* This is probably common knowledge, but it wasn't to me until it happened.  In mucking around with the notification settings on my device, I learned that if you "silence" the Pushover app (i.e. turn off vibration, sound, etc. so the notifications get logged to the app but not displayed), this system will _not_ work.  It needs the pop-up part of the notification system to trigger Tasker.  The Pushover/Tasker integration makes sure the pop up notifications dont' appear.
+
 ## Background
 
 I have an old Nexus 6 phone in the lab, and wanted to put it to use, even trivially.  It occured to me that it would make a great small TV screen (since I tend to listen more than watch videos when I'm working).  And, initially, it was quick to get up and get running, and I was back to work while [The Red Green Show][50] played in the background (don't judge).  All was right with the world.
