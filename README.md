@@ -65,6 +65,7 @@ where:
 
 ## Control Commands
 
+**Control commands** are passed in the message body of the notification:
 
 | command | description |
 | ------- | ----------- |
