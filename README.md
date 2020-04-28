@@ -79,10 +79,60 @@ where:
 | `volume.up` | Increases the volume by 1. |
 
 
-## Troubleshooting
+## Project Details
+
+### Profiles
+
+There are 8 profiles, one for each message type:
+
+* `Youtube Pause`
+* `Youtube Play`
+* `Youtube Next`
+* `Youtube Prev`
+* `Youtube Stop`
+* `Youtube URL`
+* `Youtube Volume Up`
+* `Youtube Volume Down`
+
+### Tasks
+
+There are 9 task scripts, broken down into 6 main scripts for individual commands:
+
+* `youtube-pause`
+* `youtube-play`
+* `youtube-next`
+* `youtube-prev`
+* `youtube-stop`
+* `youtube-url`
+
+One script for handling volume up _and_ down:
+
+* `youtube-volume`
+
+And two "sub-scripts" called by the others:
+
+* `youtube-init` &mdash; Initializes some variables, including the Project's version number.
+* `youtube-show` &mdash; Turns on the device's display *(**NOTE:**  This is the touchiest part of the project.  I'm still chasing down erratic behavior when trying to turn the display back on.)*.
+
+### Scenes
+
+One scene is used (as part of the device wake-up process):
+
+* `youtube-wake-screen`
+
+Both the background and text are set to transparent.
+
+### Variables
+
+| name | description |
+| ---- | ----------- |
+| `%tVol` | Temporary variable used by `youtube-volume` to set media volume. |
+| `%VERSION` | Project version number. |
+
+## Notes & Troubleshooting
 
 * This is probably common knowledge, but it wasn't to me until it happened.  In mucking around with the notification settings on my device, I learned that if you "silence" the Pushover app (i.e. turn off vibration, sound, etc. so the notifications get logged to the app but not displayed), this system will _not_ work.  It needs the pop-up part of the notification system to trigger Tasker.  The Pushover/Tasker integration makes sure the pop up notifications don't appear.
-
+* While I tried to use [AutoInput][15]'s ability to activate the display, it only reliably turned it off for me.  After much googling, I've incorporated a hack that also throws a transparent scene Popup up first to "wake" the device before trying to turn the screen on.  The `youtube-show` task list handles creating a Popup based on the `youtube-wake-screen` scene.
 
 ## Background
 
