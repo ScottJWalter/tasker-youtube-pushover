@@ -27,7 +27,14 @@ The following apps need to be set up on your device prior to installing this pro
 
 ## Installing
 
-As this is a [**Tasker Project**][20] file, with the profiles and tasks bundled up into a single XML file, installation is straightforward (assuming the prerequisites above have been satisfied):
+As this is a [**Tasker Project**][20] file, with the profiles and tasks bundled up into a single XML file, installation is straightforward (assuming the prerequisites above have been satisfied), and can be performed in 2 ways:
+
+### Method 1:  Via TaskerNet (easiest)
+
+1. Click [this link][100] from your android device's browser.  It will open the TaskerNet page for this project.
+2. Follow the instructions on the page to complete the import.
+
+### Method 2:  Via Github (this repo)
 
 1. [Download the XML file][21] to your device.
 2. Launch Tasker
@@ -110,3 +117,5 @@ So, the general pattern is:
 [40]: https://github.com/markus-perl/pushover-cli
 
 [50]: https://www.youtube.com/watch?v=FUXPuYZ4DEQ&list=PLB90DDA45E8C2EF45
+
+[100]: https://taskernet.com/shares/?user=AS35m8lCND4aKgub4jqkiizlsYO7piFwEGbhUrPJjAPSZaWK%2FXh4FrTyT9hN40yI7hG%2F&id=Project%3AYoutube
