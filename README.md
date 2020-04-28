@@ -15,9 +15,10 @@ Think of Pushover as a device control stream similar to [MQTT][3], and you can s
 
 The following apps need to be set up on your device prior to installing this project:
 
-1. [Tasker][10]
-2. [Pushover][11]
-3. [Youtube][12]
+1. [Tasker][10], including the following Tasker plugins:
+   2. [AutoInput][15]
+3. [Pushover][11]
+4. [Youtube][12]
 
 **NOTE:**
 
@@ -112,6 +113,8 @@ So, the general pattern is:
 [10]: https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm
 [11]: https://play.google.com/store/apps/details?id=net.superblock.pushover
 [12]: https://play.google.com/store/apps/details?id=com.google.android.youtube
+
+[15]: https://play.google.com/store/apps/details?id=com.joaomgcd.autoinput
 
 [20]: https://tasker.joaoapps.com/userguide/en/activity_main.html#projects
 [21]: https://raw.githubusercontent.com/ScottJWalter/tasker-youtube/master/Youtube.prj.xml
