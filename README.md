@@ -79,7 +79,8 @@ where:
 
 ## Troubleshooting
 
-* This is probably common knowledge, but it wasn't to me until it happened.  In mucking around with the notification settings on my device, I learned that if you "silence" the Pushover app (i.e. turn off vibration, sound, etc. so the notifications get logged to the app but not displayed), this system will _not_ work.  It needs the pop-up part of the notification system to trigger Tasker.  The Pushover/Tasker integration makes sure the pop up notifications dont' appear.
+* This is probably common knowledge, but it wasn't to me until it happened.  In mucking around with the notification settings on my device, I learned that if you "silence" the Pushover app (i.e. turn off vibration, sound, etc. so the notifications get logged to the app but not displayed), this system will _not_ work.  It needs the pop-up part of the notification system to trigger Tasker.  The Pushover/Tasker integration makes sure the pop up notifications don't appear.
+
 
 ## Background
 
