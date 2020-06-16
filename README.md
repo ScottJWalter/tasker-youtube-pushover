@@ -1,6 +1,20 @@
-![Tasker](./.images/tasker.png) ![](./.images/plus.png) ![Pushover](./.images/pushover.png) ![](./.images/equals.png) ![Youtube](./.images/youtube.png)
-
-# Tasker + Pushover = Youtube Controller
+<table style="font-size:1.5rem;margin-left:-0.6rem;">
+   <tr>
+      <td style="padding-bottom:0;text-align:center;"><img alt="Tasker" title="Tasker" src="./.images/tasker.png" /></td>
+      <th></th>
+      <td style="padding-bottom:0;text-align:center;"><img alt="Pushover" title="Pushover" src="./.images/pushover.png" /></td>
+      <th></th>
+      <td style="padding-bottom:0;text-align:center;"><img alt="Youtube" title="Youtube" src="./.images/youtube.png" /></td>
+   </td>
+   <tr>
+      <th>Tasker</th>
+      <th>+</th>
+      <th>Pushover</th>
+      <th>=</th>
+      <th>Youtube Controller</th>
+   </td>
+</table>
+<hr style="height:1px;padding-top:0;margin-top:0;"/>
 
 [Tasker][1] is a fantastic Android application that gives you extensive control over your device, including interaction with popular notification platforms like [Pushover][2].  This enables sending messages via Pushover to the device which, in turn, direct Tasker to perform specific functions.
 
@@ -15,10 +29,10 @@ Think of Pushover as a device control stream similar to [MQTT][3], and you can s
 
 The following apps need to be set up on your device prior to installing this project:
 
-1. [Tasker][10], including the following Tasker plugins:
-   2. [AutoInput][15]
-3. [Pushover][11]
-4. [Youtube][12]
+* [Tasker][10], including the following Tasker plugins:
+  * [AutoInput][15]
+* [Pushover][11]
+* [Youtube][12]
 
 **NOTE:**
 
@@ -28,7 +42,7 @@ The following apps need to be set up on your device prior to installing this pro
 
 ## Installing
 
-As this is a [**Tasker Project**][20] file, with the profiles and tasks bundled up into a single XML file, installation is straightforward (assuming the prerequisites above have been satisfied), and can be performed in 2 ways:
+As this is a [**Tasker Project file**][20], with the profiles and tasks bundled up into a single XML file, installation is straightforward (assuming the prerequisites above have been satisfied), and can be performed in 2 ways:
 
 ### Method 1:  Via TaskerNet (easiest)
 
@@ -40,7 +54,7 @@ As this is a [**Tasker Project**][20] file, with the profiles and tasks bundled 
 1. [Download the XML file][21] to your device.
 2. Launch Tasker
 3. Make sure you're not in [**Beginner Mode**][22]
-4. Long-press on the `Home` icon (the default project) at the bottom of the screen.
+4. Long-press on the `Home` icon (the house) at the bottom left of the screen.
 5. Select **Import...**
 6. Find the XML file on your device and select it.
 7. **DONE**
@@ -132,27 +146,27 @@ Both the background and text are set to transparent.
 ## Notes & Troubleshooting
 
 * This is probably common knowledge, but it wasn't to me until it happened.  In mucking around with the notification settings on my device, I learned that if you "silence" the Pushover app (i.e. turn off vibration, sound, etc. so the notifications get logged to the app but not displayed), this system will _not_ work.  It needs the pop-up part of the notification system to trigger Tasker.  The Pushover/Tasker integration makes sure the pop up notifications don't appear.
-* While I tried to use [AutoInput][15]'s ability to activate the display, it only reliably turned it off for me.  After much googling, I've incorporated a hack that also throws a transparent scene Popup up first to "wake" the device before trying to turn the screen on.  The `youtube-show` task list handles creating a Popup based on the `youtube-wake-screen` scene.
+* While I tried to use [AutoInput][15]'s ability to activate the display, it only reliably turned it off for me.  After much googling, I've incorporated a hack that first throws up a transparent `Popup` scene to "wake" the device before trying to turn the screen on.  The `youtube-show` task list handles creating a Popup based on the `youtube-wake-screen` scene.
 
 ## Background
 
 I have an old Nexus 6 phone in the lab, and wanted to put it to use, even trivially.  It occured to me that it would make a great small TV screen (since I tend to listen more than watch videos when I'm working).  And, initially, it was quick to get up and get running, and I was back to work while [The Red Green Show][50] played in the background (don't judge).  All was right with the world.
 
-But, after time, it got tiresome having to reach across the desk to tap the screen.  There had to be a better way.  Figuring "It's Android. It can run Tasker.  Tasker can control Youtube.  There's _got_ to be something already existing to handle this!", I consulted the Google ... and couldn't find much.  Seems most people are interested in turning their old phones into devices that controlled TVs or cast video _to_ them.  I couldn't find anything about doing it the other way around (playing video _on_ the phone while controlling it _from_ my workstation).
+But, after time, it got tiresome having to reach across the desk to tap the screen.  There had to be a better way.  Figuring "It's Android. It can run Tasker.  Tasker can control Youtube.  There's _got_ to be something already existing to handle this!", I consulted the Google ... and couldn't find much.  Seems most people are interested in turning their old phones into devices that either controll their TVs or cast video _to_ them (the TVs).  I couldn't find anything about doing it the other way around (playing video _on_ the phone while controlling it _from_ my desktop).
 
-Time for some creative thinking:
+Time for some creative thinking.  Either:
 
-1. Get Tasker to control Youtube (play, pause, next, prev, stop, etc.)
-2. Get Tasker to accept input from somewhere else.
+1. Get Tasker to control Youtube (play, pause, next, prev, stop, etc.), _OR_
+1. Get Tasker to accept input from somewhere else.
 
 Enter [Pushover][2], which comes with a Tasker plugin for just such a connection.
 
 So, the general pattern is:
 
-1. **Create a profile in Tasker based on a Pushover Event notificication.**  Remember to specify a unique `title` and `body` (each profile can respond to a different `title`/`body` combination).
-1. **Create your Tasker tasks (or task scripts) for the profile.**  You get access to the parts of a Pushover notification through the [Tasker variables the Pushover plugin exposes][30].
-1. **Save your work.**  It's easy to overlook the checkmark that appears in the top bar when there are changes to your profiles or tasks.  If you don't save, any changes don't get loaded and executed.
-1. **Push a notification.**  Use the [Pushover.net][2] website (or something like [Markus Perl's pushover-cli][40]) to send a notification to your device with the correct `title` and `body` values.
+1. **Create a profile in Tasker based on a Pushover Event notificication** &mdash;  Remember to specify a unique `title` and `body` (each profile can respond to a different `title`/`body` combination).
+1. **Create your Tasker tasks (or task scripts) for the profile**  &mdash; You get access to the parts of a Pushover notification through the [Tasker variables the Pushover plugin exposes][30].
+1. **Save your work** &mdash; It's easy to overlook the checkmark that appears in the top bar when there are changes to your profiles or tasks.  If you don't save, any changes don't get loaded and executed.
+1. **Push a notification** &mdash; Use the [Pushover.net][2] website (or something like [Markus Perl's pushover-cli][40]) to send a notification to your device with the correct `title` and `body` values.
 
 *Voil&agrave;*!
 
