@@ -1,24 +1,21 @@
-<table style="font-size:1.5rem;margin-left:-0.6rem;">
+<table style="font-size:1.5rem;margin-left:-0.6rem;border-bottom:1px solid #333;">
    <tr>
       <td style="padding-bottom:0;text-align:center;"><img alt="Tasker" title="Tasker" src="./.images/tasker.png" /></td>
       <th></th>
       <td style="padding-bottom:0;text-align:center;"><img alt="Pushover" title="Pushover" src="./.images/pushover.png" /></td>
       <th></th>
       <td style="padding-bottom:0;text-align:center;"><img alt="Youtube" title="Youtube" src="./.images/youtube.png" /></td>
-   </td>
+   </tr>
    <tr>
       <th>Tasker</th>
       <th>+</th>
       <th>Pushover</th>
       <th>=</th>
-      <th>Youtube Controller</th>
-   </td>
+      <th>Youtube Remote Control</th>
+   </tr>
 </table>
-<hr style="height:1px;padding-top:0;margin-top:0;"/>
 
-[Tasker][1] is a fantastic Android application that gives you extensive control over your device, including interaction with popular notification platforms like [Pushover][2].  This enables sending messages via Pushover to the device which, in turn, direct Tasker to perform specific functions.
-
-This is a Tasker project than enables Youtube control on your android device via Pushover notifications.  It's a very simple proof of concept, demonstrating:
+[Tasker][1] is a fantastic Android application that gives you extensive control over your device, including interaction with popular notification platforms like [Pushover][2].  This is a Tasker project than enables Youtube control _on_ your android device via Pushover notifications.  It's a very simple example, demonstrating:
 
 * How to target a specific device
 * A simple but adaptable message structure
@@ -29,8 +26,8 @@ Think of Pushover as a device control stream similar to [MQTT][3], and you can s
 
 The following apps need to be set up on your device prior to installing this project:
 
-* [Tasker][10], including the following Tasker plugins:
-  * [AutoInput][15]
+* [Tasker][10]
+* [AutoInput][15]
 * [Pushover][11]
 * [Youtube][12]
 
@@ -52,12 +49,12 @@ As this is a [**Tasker Project file**][20], with the profiles and tasks bundled 
 ### Method 2:  Via Github (this repo)
 
 1. [Download the XML file][21] to your device.
-2. Launch Tasker
-3. Make sure you're not in [**Beginner Mode**][22]
-4. Long-press on the `Home` icon (the house) at the bottom left of the screen.
-5. Select **Import...**
-6. Find the XML file on your device and select it.
-7. **DONE**
+1. Launch Tasker
+1. Make sure you're not in [**Beginner Mode**][22]
+1. Long-press on the `Home` icon (the house) at the bottom left of the screen.
+1. Select **Import...** from the context menu that pops up.
+1. Find the XML file on your device and select it.
+1. **DONE**
 
 ## Getting Started
 
@@ -126,7 +123,7 @@ One script for handling volume up _and_ down:
 And two "sub-scripts" called by the others:
 
 * `youtube-init` &mdash; Initializes some variables, including the Project's version number.
-* `youtube-show` &mdash; Turns on the device's display *(**NOTE:**  This is the touchiest part of the project.  I'm still chasing down erratic behavior when trying to turn the display back on.)*.
+* `youtube-show` &mdash; Turns on the device's display. *(**NOTE:**  This is the touchiest part of the project.  I'm still chasing down erratic behavior when trying to turn the display back on, especially if the device has been sleeping for some time.)*
 
 ### Scenes
 
@@ -146,11 +143,11 @@ Both the background and text are set to transparent.
 ## Notes & Troubleshooting
 
 * This is probably common knowledge, but it wasn't to me until it happened.  In mucking around with the notification settings on my device, I learned that if you "silence" the Pushover app (i.e. turn off vibration, sound, etc. so the notifications get logged to the app but not displayed), this system will _not_ work.  It needs the pop-up part of the notification system to trigger Tasker.  The Pushover/Tasker integration makes sure the pop up notifications don't appear.
-* While I tried to use [AutoInput][15]'s ability to activate the display, it only reliably turned it off for me.  After much googling, I've incorporated a hack that first throws up a transparent `Popup` scene to "wake" the device before trying to turn the screen on.  The `youtube-show` task list handles creating a Popup based on the `youtube-wake-screen` scene.
+* While I tried to use [AutoInput][15]'s ability to activate the display, it only reliably turned it off for me (not completely surprising, as every phone manaufacturer has to do things _just_ a _little_ differently ... "product differentiation" ... yeah ...).  After much googling, I've incorporated a hack that first throws up a transparent `Popup` scene to "wake" the device before trying to turn the screen on.  The `youtube-show` task list handles creating a Popup based on the `youtube-wake-screen` scene.
 
 ## Background
 
-I have an old Nexus 6 phone in the lab, and wanted to put it to use, even trivially.  It occured to me that it would make a great small TV screen (since I tend to listen more than watch videos when I'm working).  And, initially, it was quick to get up and get running, and I was back to work while [The Red Green Show][50] played in the background (don't judge).  All was right with the world.
+I have an old Android phone in the lab (actually a couple, I tend to be a bit of a packrat), and wanted to put it to use, even trivially.  It occured to me that it would make a great small TV screen (since I tend to listen more than watch videos when I'm working).  And, initially, it was quick to get up and get running, and I was back to work while [The Red Green Show][50] played in the background (don't judge).  All was right with the world.
 
 But, after time, it got tiresome having to reach across the desk to tap the screen.  There had to be a better way.  Figuring "It's Android. It can run Tasker.  Tasker can control Youtube.  There's _got_ to be something already existing to handle this!", I consulted the Google ... and couldn't find much.  Seems most people are interested in turning their old phones into devices that either controll their TVs or cast video _to_ them (the TVs).  I couldn't find anything about doing it the other way around (playing video _on_ the phone while controlling it _from_ my desktop).
 
