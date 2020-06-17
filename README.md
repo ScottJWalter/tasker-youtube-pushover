@@ -1,23 +1,6 @@
-<link rel="stylesheet" type="text/css" media="all" href=".images/style.css" />
-<div class="divTable">
-   <div class="divTableBody">
-      <div class="divTableRow">
-         <div class="divTableCell"><img alt="Tasker" title="Tasker" src="./.images/tasker.png" /></div>
-         <div class="divTableCellPadded">&nbsp;</div>
-         <div class="divTableCell"><img alt="Pushover" title="Pushover" src="./.images/pushover.png" /></div>
-         <div class="divTableCellPadded">&nbsp;</div>
-         <div class="divTableCell"><img alt="Youtube" title="Youtube" src="./.images/youtube.png" /></div>
-      </div>
-      <div class="divTableRow">
-         <div class="divTableCell">Tasker</div>
-         <div class="divTableCellPadded">+</div>
-         <div class="divTableCell">Pushover</div>
-         <div class="divTableCellPadded">=</div>
-         <div class="divTableCell">Youtube Remote Control</div>
-      </div>
-   </div>
-</div>
-<hr style="border-bottom:1px solid #333;" />
+![Tasker](.images/tasker.png) ![Pushover](.images/autoinput.png) ![Pushover](.images/pushover.png) ![Youtube](.images/youtube.png)
+
+# Pushover + AutoInput + Tasker &rarr; Youtube
 
 [Tasker][1] is a fantastic Android application that gives you extensive control over your device, including interaction with popular notification platforms like [Pushover][2].  This is a Tasker project than enables Youtube control _on_ your android device via Pushover notifications.  It's a very simple example, demonstrating:
 
