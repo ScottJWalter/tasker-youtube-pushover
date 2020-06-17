@@ -1,6 +1,6 @@
-![Tasker](.images/tasker.png) ![Pushover](.images/autoinput.png) ![Pushover](.images/pushover.png) ![Youtube](.images/youtube.png)
+![Tasker](.images/tasker.png) ![Youtube](.images/youtube.png) ![Pushover](.images/pushover.png) 
 
-# Pushover + AutoInput + Tasker &rarr; Youtube
+# Tasker &rarr; Youtube via Pushover
 
 [Tasker][1] is a fantastic Android application that gives you extensive control over your device, including interaction with popular notification platforms like [Pushover][2].  This is a Tasker project than enables Youtube control _on_ your android device via Pushover notifications.  It's a very simple example, demonstrating:
 
